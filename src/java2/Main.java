@@ -10,6 +10,7 @@ public class Main {
 			System.out.println("ノックする");
 			System.out.println("１分待つ");
 		
+			
 		}
 
 	}
