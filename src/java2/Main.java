@@ -11,6 +11,7 @@ public class Main {
 			System.out.println("１分待つ");
 		
 			
+			
 		}
 
 	}
