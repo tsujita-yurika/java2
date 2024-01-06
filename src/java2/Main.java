@@ -3,15 +3,17 @@ package java2;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-//		複雑なfor文
-//		繰り返し時の処理を行わない
-//		ずっと0周目→
-		for (int i = 0; i < 10;) {
-			System.out.println("現在" + i + "周目→");
-			
+//		iを1から9まで繰り返す
+		for (int i = 1; i < 10; i++) {
+//			jも1から9まで繰り返す
+			for (int j = 1; j < 10; j++) {
+				System.out.println(i * j);
+//				空白を出力
+				System.out.println(" ");
 			}
-		
+//			改行を出力
+			System.out.println(" ");
+			}
 		}
 	}
 	
