@@ -3,17 +3,20 @@ package java2;
 public class Main {
 
 	public static void main(String[] args) {
-//		iを1から9まで繰り返す
-		for (int i = 1; i < 10; i++) {
-//			jも1から9まで繰り返す
-			for (int j = 1; j < 10; j++) {
-				System.out.println(i * j);
-//				空白を出力
-				System.out.println(" ");
-			}
-//			改行を出力
-			System.out.println(" ");
-			}
+		int isHungry = 1;
+		String food = "りんご";
+		System.out.println("こんにちは");
+		if (isHungry == 0) {
+			System.out.println("お腹がいっぱいです");
+		} else {
+			System.out.println("はらぺこです");
+		}
+		if (isHungry == 1) 
+			System.out.println(food +  "をいただきます");
+		System.out.println("ごちそうさまでした");
+			
+		
+			
 		}
 	}
 	
