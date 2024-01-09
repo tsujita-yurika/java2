@@ -13,9 +13,7 @@ public class Main {
 		}
 		if (isHungry == 1) 
 			System.out.println(food +  "をいただきます");
-		System.out.println("ごちそうさまでした");
-			
-		
+		System.out.println("ごちそうさまでした");	
 			
 		}
 	}
