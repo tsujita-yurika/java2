@@ -15,6 +15,7 @@ public class Main {
 			System.out.println(food +  "をいただきます");
 		System.out.println("ごちそうさまでした");	
 			
+		
 		}
 	}
 	
