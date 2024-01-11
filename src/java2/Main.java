@@ -3,19 +3,12 @@ package java2;
 public class Main {
 
 	public static void main(String[] args) {
-		int isHungry = 1;
-		String food = "りんご";
-		System.out.println("こんにちは");
-		if (isHungry == 0) {
-			System.out.println("お腹がいっぱいです");
-		} else {
-			System.out.println("はらぺこです");
-		}
-		if (isHungry == 1) 
-			System.out.println(food +  "をいただきます");
-		System.out.println("ごちそうさまでした");	
-			
-		
+        for ( int i = 1; i <= 30; i++ ) {
+            if ( i % 3 == 0 && i % 5 == 0 ) System.out.print("FizzBuzz");
+            else if ( i % 3 == 0 ) System.out.print("Fizz");
+            else if ( i % 5 == 0 ) System.out.print("Buzz");
+            else System.out.print(i);
+        	}
 		}
 	}
 	
